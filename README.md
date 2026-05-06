@@ -17,7 +17,7 @@ https://drive.google.com/drive/folders/1W-vp82yeAjVvEJfaExwUfbzQTTyDe77F?usp=sha
 Place the data in a `data/` folder before running.
 
 ## 📂 Project Structure
-- notebooks/ → analysis and modelling
+- notebooks/ → analysis and modelling and GUI
 - figures/ → visualisations
 - results/ → model outputs
 
@@ -28,5 +28,17 @@ Place the data in a `data/` folder before running.
 - SARIMAX (Time Series)
 
 ## ▶️ How to Run
-```bash
-pip install -r requirements.txt
+
+1. Download the dataset from the Google Drive link above and place it in a `data/` folder.
+
+2. Open the notebooks in the `notebooks/` folder and run them in order:
+   - Data cleaning and preprocessing
+   - Exploratory data analysis and visualisation
+   - Model building and evaluation
+   - Streamlit GUI preparation
+
+3. The generated figures and model outputs are saved in:
+   - `figures/`
+   - `results/`
+
+4. To run the Streamlit application, open the GUI notebook and follow the instructions inside to launch the app using Streamlit.
