@@ -32,9 +32,8 @@ Place the data in a `data/` folder before running.
 1. Download the dataset from the Google Drive link above and place it in a `data/` folder.
 
 2. Open the notebooks in the `notebooks/` folder and run them in order:
-   - Data cleaning and preprocessing
-   - Exploratory data analysis and visualisation
-   - Model building and evaluation
+   - Exploratory data analysis
+   - Model building
    - Streamlit GUI preparation
 
 3. The generated figures and model outputs are saved in:
