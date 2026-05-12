@@ -1,4 +1,4 @@
-# CMP7005-PRAC1 – PM2.5 Air Quality Analysis
+# CMP7005 – PM2.5 Air Quality Analysis
 
 ## ☁️ Project Overview
 This project analyses Beijing air quality data to explore PM2.5 patterns and build predictive models using machine learning and time-series approaches.
