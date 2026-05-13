@@ -1,43 +1,51 @@
 # CMP7005 – PM2.5 Air Quality Analysis
 
 ## ☁️ Project Overview
-This project analyses Beijing air quality data to explore PM2.5 patterns and build predictive models using machine learning and time-series approaches.
+This project analyses Beijing air quality data and develop predictive models using machine learning and time-series forecasting approaches. 
+A Streamlit web application was also developed to visualise the dataset, modelling results, and forecasting outputs interactively.
 
 ## 📖 Dataset
-This study uses data from four monitoring stations:
-- Changping (Suburban)
-- Shunyi (Suburban)
-- Tiantan (Urban)
-- Wanshouxigong (Urban)
+This study uses Beijing Multi-Site Air Quality data from four representative monitoring stations:
+### Urban Stations
+- Tiantan
+- Wanshouxigong
+### Suburban Stations
+- Changping
+- Shunyi
 
-⚠️ The dataset is not included due to file size limitations.  
-Please download it from:
+## 🔄 Version Information
+### Reproducible GitHub Version
+The updated version is located inside the `reproducible/` folder.
+
+This version was created to improve:
+- GitHub reproducibility
+- Streamlit Cloud deployment compatibility
+- Relative path management
+- Cross-platform execution
+- Project portability without Google Drive dependency
+
+### 🌳 Live Streamlit Application
+The deployed Streamlit application can be accessed here:
+https://st20273195-versioncontrol-6kx8d2w9utrkeuq5amgvxy.streamlit.app
+
+The application includes:
+- Dataset overview
+- Exploratory visualisations
+- Urban vs suburban comparison
+- Machine learning model evaluation
+- SARIMAX forecasting outputs
+
+### Original Version
+The original notebooks located in the root-level folders were developed using Google Colab and Google Drive integration. These notebooks rely on:
+- Google Drive-based file storage
+- cloud-specific file directory settings
+- Google Colab execution environment
+
+The original dataset is not included in this repository due to file size limitations.
+Please download the dataset from:
 https://drive.google.com/drive/folders/1W-vp82yeAjVvEJfaExwUfbzQTTyDe77F?usp=sharing
+After downloading, place the dataset inside a `data/` folder if required.
 
-Place the data in a `data/` folder before running.
+These files are retained for version comparison and development history purposes.
 
-## 📂 Project Structure
-- notebooks/ → analysis and modelling and GUI
-- figures/ → visualisations
-- results/ → model outputs
-
-## 🌲 Models
-- Baseline Mean
-- Linear Regression
-- Random Forest (Tuned)
-- SARIMAX (Time Series)
-
-## ▶️ How to Run
-
-1. Download the dataset from the Google Drive link above and place it in a `data/` folder.
-
-2. Open the notebooks in the `notebooks/` folder and run them in order:
-   - Exploratory data analysis
-   - Model building
-   - Streamlit GUI preparation
-
-3. The generated figures and model outputs are saved in:
-   - `figures/`
-   - `results/`
-
-4. To run the Streamlit application, open the GUI notebook and follow the instructions inside to launch the app using Streamlit.
+This repository contains two versions of the coursework project.
